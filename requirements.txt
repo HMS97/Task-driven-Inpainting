@@ -1,0 +1,12 @@
+matplotlib
+accelerate 
+opencv-python 
+torch 
+torchvision 
+path 
+tqdm
+scikit-image
+traitlets
+ipython
+neptune
+easydict
