@@ -1,37 +1,39 @@
 # Coarse-to-fine Task-driven Inpainting for Geoscience Images
+This repository contains the implementation of the research paper "Coarse-to-fine Task-driven Inpainting for Geoscience Images," accepted in IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) in 2023.
 
-Accepted in TCSVT 2023
 
-## The Requirements
+
+
+## Dataset and Pretrained Models  for Classification
+
+
+### 1.Download the [Dataset](https://drive.google.com/file/d/1A8aScQzxEraahqkFRnJVEqBgnKvVFyUW/view?usp=drive_link) into the current folder and unzip
+
+
+### 2.Download the classification [Pretained Models](https://drive.google.com/drive/folders/1ydRKKrytJugLi7h5vIpkX-ZNdGRjvzqu?usp=sharing) into the save_models folder
+
+
+# Usage
+#### The Requirements
 
 ```
 pip install -r requirements.txt
 ```
 
-## Pretrained Models for Classification
-
-
-## Download the [Dataset](https://drive.google.com/file/d/1A8aScQzxEraahqkFRnJVEqBgnKvVFyUW/view?usp=drive_link) into the current folder and unzip
-
-
-## Download the classification [Pretained Models](https://drive.google.com/drive/folders/1ydRKKrytJugLi7h5vIpkX-ZNdGRjvzqu?usp=sharing) into the save_models
-
-
-
-### Start the Training
+#### Start the Training
 
 ```
 python gan_trainer.py
 ```
 
-### Start the Testing
+#### Start the Testing
 
 ```
 python gan_test.py
 
 ```
 
-### Start the Evaluation
+#### Start the Evaluation
 
 ```
 python baseline.py
